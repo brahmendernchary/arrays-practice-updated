@@ -1,3 +1,6 @@
+const names = ["Mike","Matt","Nancy","Adam","Jenny","Nancy","Carl"];  
+let unique = [...new Set(names)]; console.log(unique); // 'Mike', 'Matt', 'Nancy', 'Adam', 'Jenny', 'Carl'
+
 var arr = ['a' ,'b','c','c','a','c','a','d' ]
 
 function removeDuplicate(data){
